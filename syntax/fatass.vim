@@ -14,10 +14,11 @@ syn keyword AKeyword A
 syn keyword TKeyword T
 syn keyword GKeyword G 
 syn keyword CKeyword C
-syn match AKeyword "A"
-syn match TKeyword "T"
-syn match GKeyword "G"
-syn match CKeyword "C"
+syn match AKeyword "A\|a"
+syn match TKeyword "T\|t"
+syn match GKeyword "G\|g"
+syn match CKeyword "C\|c"
+syn match Keyword "^>.*$"
 highlight AKeyword ctermbg=magenta cterm=bold guibg=magenta
 highlight TKeyword ctermbg=yellow cterm=bold guibg=yellow
 highlight CKeyword ctermbg=cyan cterm=bold guibg=cyan
