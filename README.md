@@ -14,7 +14,7 @@ and add this line to your ``.vimrc`` :
 
 ## Screenshots
 Alignment in vim
-![alignment]("/images/FatasS_align.png?raw=true "Alignment in vim")
+![alignment](/images/FatasS_align.png?raw=true "Alignment in vim")
 Sequence in gvim
-![sequence]("/images/FatasS_basic.png?raw=true "Sequences in gvim")
+![sequence](/images/FatasS_basic.png?raw=true "Sequences in gvim")
 
