@@ -1,3 +1,4 @@
+![FatasS logo](/images/fatass_logo.png?raw=true "Fasta Syntax Highlighting VIM")
 # FatasS
 Fasta Syntax Highlighting for vim
 
