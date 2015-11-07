@@ -12,3 +12,9 @@ and add this line to your ``.vimrc``
 
 ``au BufRead,BufNewFile *.fa set filetype=fatass``
 
+## Screenshots
+Alignment in vim
+![alignment]("/images/FatasS_align.png?raw=true "Alignment in vim")
+Sequence in gvim
+![sequence]("/images/FatasS_basic.png?raw=true "Sequences in gvim")
+
