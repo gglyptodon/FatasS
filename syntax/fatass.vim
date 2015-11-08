@@ -67,7 +67,7 @@ syn keyword S S
 syn keyword T T
 syn keyword V V
 syn keyword W W
-
+syn keyword Y Y
 
 highlight A ctermbg=magenta cterm=bold guibg=magenta
 highlight T ctermbg=yellow cterm=bold guibg=yellow
@@ -76,21 +76,22 @@ highlight G ctermbg=green cterm=bold guibg=green
 
 highlight D ctermbg=160 cterm=bold guibg=Red
 highlight E ctermbg=green cterm=bold guibg=green
-highlight F ctermbg=green cterm=bold guibg=green
+highlight F ctermbg=19 cterm=bold guibg=green
 highlight G ctermbg=green cterm=bold guibg=green
 highlight H ctermbg=green cterm=bold guibg=green
-highlight I ctermbg=green cterm=bold guibg=green
+highlight I ctermbg=126 cterm=bold guibg=magenta
 highlight K ctermbg=green cterm=bold guibg=green
-highlight L ctermbg=green cterm=bold guibg=green
-highlight M ctermbg=green cterm=bold guibg=green
+highlight L ctermbg=127 cterm=bold guibg=magenta
+highlight M ctermbg=128 cterm=bold guibg=magenta
 highlight N ctermbg=green cterm=bold guibg=green
-highlight P ctermbg=green cterm=bold guibg=green
+highlight P ctermbg=34 cterm=bold guibg=green
 highlight Q ctermbg=green cterm=bold guibg=green
 highlight R ctermbg=green cterm=bold guibg=green
 highlight S ctermbg=green cterm=bold guibg=green
 highlight T ctermbg=green cterm=bold guibg=green
-highlight V ctermbg=green cterm=bold guibg=green
-highlight T ctermbg=green cterm=bold guibg=green
+highlight V ctermbg=125 cterm=bold guibg=magenta
+highlight W ctermbg=20 cterm=bold guibg=blue
+highlight Y ctermbg=21 cterm=bold guibg=blue
 
 
 
