@@ -75,23 +75,41 @@ highlight C ctermbg=cyan cterm=bold guibg=cyan
 highlight G ctermbg=green cterm=bold guibg=green
 
 highlight D ctermbg=160 cterm=bold guibg=Red
-highlight E ctermbg=green cterm=bold guibg=green
+
+highlight E ctermbg=161 cterm=bold guibg=DarkRed
 highlight F ctermbg=19 cterm=bold guibg=green
-highlight G ctermbg=green cterm=bold guibg=green
-highlight H ctermbg=green cterm=bold guibg=green
+
+highlight H ctermbg=238 cterm=bold guibg=DarkGray
 highlight I ctermbg=126 cterm=bold guibg=magenta
-highlight K ctermbg=green cterm=bold guibg=green
+highlight K ctermbg=239 cterm=bold guibg=Grey
+
 highlight L ctermbg=127 cterm=bold guibg=magenta
 highlight M ctermbg=128 cterm=bold guibg=magenta
-highlight N ctermbg=green cterm=bold guibg=green
-highlight P ctermbg=34 cterm=bold guibg=green
-highlight Q ctermbg=green cterm=bold guibg=green
-highlight R ctermbg=green cterm=bold guibg=green
-highlight S ctermbg=green cterm=bold guibg=green
-highlight T ctermbg=green cterm=bold guibg=green
+
+highlight N ctermbg=178 cterm=bold guibg=LightOrange
+highlight P ctermbg=green cterm=bold guibg=green
+highlight Q ctermbg=180 cterm=bold guibg=DarkYellow
+highlight R ctermbg=240 cterm=bold guibg=LightGray
+highlight S ctermbg=166 cterm=bold guibg=DarkOrange
+highlight T ctermbg=172 cterm=bold guibg=Orange
 highlight V ctermbg=125 cterm=bold guibg=magenta
 highlight W ctermbg=20 cterm=bold guibg=blue
 highlight Y ctermbg=21 cterm=bold guibg=blue
+
+
+
+
+syn match D "D\|d"
+syn match E "E\|e"
+syn match H "H\|h"
+syn match K "K\|k"
+
+syn match N "N\|n"
+syn match P "P\|p"
+syn match Q "Q\|q"
+syn match S "S\|s"
+syn match T "T\|t"
+
 
 
 
