@@ -10,14 +10,10 @@ endif
 
 
 " Nucleotides
-syn keyword AKeyword A 
-syn keyword TKeyword T
-syn keyword GKeyword G 
-syn keyword CKeyword C
-syn match AKeyword "A\|a"
-syn match TKeyword "T\|t"
-syn match GKeyword "G\|g"
-syn match CKeyword "C\|c"
+"A	Adenine
+"T	Thymine
+"C	Cytosine
+"G	Guanine
 
 " Amino acids
 "A	Alanine
@@ -69,55 +65,56 @@ syn keyword V V
 syn keyword W W
 syn keyword Y Y
 
+"DNA and protein
 highlight A ctermbg=magenta cterm=bold guibg=magenta
 highlight T ctermbg=yellow cterm=bold guibg=yellow
 highlight C ctermbg=cyan cterm=bold guibg=cyan
 highlight G ctermbg=green cterm=bold guibg=green
-
-highlight D ctermbg=160 cterm=bold guibg=Red
-
-highlight E ctermbg=161 cterm=bold guibg=DarkRed
-highlight F ctermbg=19 cterm=bold guibg=green
-
-highlight H ctermbg=238 cterm=bold guibg=DarkGray
-highlight I ctermbg=126 cterm=bold guibg=magenta
-highlight K ctermbg=239 cterm=bold guibg=Grey
-
-highlight L ctermbg=127 cterm=bold guibg=magenta
-highlight M ctermbg=128 cterm=bold guibg=magenta
-
-highlight N ctermbg=178 cterm=bold guibg=LightOrange
-highlight P ctermbg=green cterm=bold guibg=green
-highlight Q ctermbg=180 cterm=bold guibg=DarkYellow
-highlight R ctermbg=240 cterm=bold guibg=LightGray
-highlight S ctermbg=166 cterm=bold guibg=DarkOrange
-highlight T ctermbg=172 cterm=bold guibg=Orange
-highlight V ctermbg=125 cterm=bold guibg=magenta
-highlight W ctermbg=20 cterm=bold guibg=blue
-highlight Y ctermbg=21 cterm=bold guibg=blue
+"protein
+highlight D ctermbg=160 cterm=bold guibg=#d70000
+highlight E ctermbg=161 cterm=bold guibg=#d7005f
+highlight F ctermbg=19 cterm=bold guibg=#0000af
+highlight H ctermbg=238 cterm=bold guibg=#444444
+highlight I ctermbg=126 cterm=bold guibg=#af0087
+highlight K ctermbg=239 cterm=bold guibg=#4e4e4e
+highlight L ctermbg=127 cterm=bold guibg=#af00af
+highlight M ctermbg=128 cterm=bold guibg=#af00d7
+highlight N ctermbg=178 cterm=bold guibg=#d7af00
+highlight P ctermbg=28 cterm=bold guibg=#008700
+highlight Q ctermbg=180 cterm=bold guibg=#d7af87
+highlight R ctermbg=240 cterm=bold guibg=#585858
+highlight S ctermbg=166 cterm=bold guibg=#d75f00
+highlight V ctermbg=125 cterm=bold guibg=#af005f
+highlight W ctermbg=20 cterm=bold guibg=#0000d7
+highlight Y ctermbg=21 cterm=bold guibg=#0000ff
 
 
+
+syn match A "A\|a"
+syn match T "T\|t"
+syn match G "G\|g"
+syn match C "C\|c"
 
 
 syn match D "D\|d"
 syn match E "E\|e"
+syn match F "F\|f"
 syn match H "H\|h"
+syn match I "I\|i"
 syn match K "K\|k"
-
+syn match L "L\|l"
+syn match M "M\|m"
 syn match N "N\|n"
 syn match P "P\|p"
 syn match Q "Q\|q"
+syn match R "R\|r"
 syn match S "S\|s"
 syn match T "T\|t"
-
-
-
+syn match V "V\|v"
+syn match W "W\|w"
+syn match Y "Y\|y"
 
 syn match Keyword "^>.*$"
-highlight AKeyword ctermbg=magenta cterm=bold guibg=magenta
-highlight TKeyword ctermbg=yellow cterm=bold guibg=yellow
-highlight CKeyword ctermbg=cyan cterm=bold guibg=cyan
-highlight Gkeyword ctermbg=green cterm=bold guibg=green
 
 let b:current_syntax = "fatass"
  
