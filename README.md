@@ -12,6 +12,9 @@ and add this line to your ``.vimrc`` :
 
 ``au BufRead,BufNewFile *.fa set filetype=fatass``
 
+If you see weird colors, try to enable 256 colors with your TERM variable:
+``export TERM='xterm-256color'``
+
 ## Screenshots
 Alignment in vim
 ![alignment](/images/FatasS_align.png?raw=true "Alignment in vim")
